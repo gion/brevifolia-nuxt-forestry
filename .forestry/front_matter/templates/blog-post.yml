@@ -29,6 +29,15 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: label
+  type: blocks
+  label: label
+  template_types:
+  - blog-post
+  - blog-post
+  config:
+    min: 
+    max: 
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/ne-te-quaesiveris-extra.md
